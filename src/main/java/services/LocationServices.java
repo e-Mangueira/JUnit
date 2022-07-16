@@ -21,13 +21,9 @@ public class LocationServices {
 		dataEntrega = adicionarDias(dataEntrega, 1);
 		locacao.setDataRetorno(dataEntrega);
 		
-		//Salvando a locacao...	
+		//Salvando a locacao...
 		//TODO adicionar método para salvar
 		
 		return locacao;
-	}
-
-	public static void main(String[] args) {
-		
 	}
 }
